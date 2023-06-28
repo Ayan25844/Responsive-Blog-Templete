@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.body{
+  text-align: center;
+  background-color: #fff;
+  font-family: 'Montserrat';
+}
+
+.container-fluid{
+  padding-top:37px;
+}
+
+hr{
+  height:1.5px;
+  background-color: #000000;
+}
+
+.color{
+  color: #000000;
+}
+
+/* Navigation Bar*/
+
+.nav-item{
+  font-size:21px;
+  padding-left: 1%;
+  font-weight: 500; 
+}
+
+.navbar-nav .nav-item :hover{
+  color:#bd6418;
+  transition: all 0.1s ease-in-out;
+}
+
+input[type='search']{
+  font-size: 13px;
+  font-weight:600;
+}
+
+input::placeholder{
+  font-size: small;
+  font-weight:600;
+}
+
+/* Title Section*/
+
+.title{
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.title::after{
+  content: "";
+  width: 80%;
+  opacity: 0.15;
+  height: inherit;
+  position: absolute;
+  border-radius: 12px;
+  background-image: url("../img/11.svg");
+}
+
+.content{
+  border-radius: 200px;
+  border: 2px solid black;
+}
+
+.heading{
+  text-align: left;
+}
+
+p{
+  line-height: 32px;
+  padding:15px 0 0;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+@media(max-width:1464px){
+  .content{
+    width: 0;
+    height: 0;
+  }
+}
+
+/* Article Section*/
+
+#article{
+  padding:37px 10% 0;
+}
+
+.article{
+  min-height: 24rem;
+  border-radius: 12px;
+  background-color: rgb(248, 239, 239, 0.5);
+}
+
+.feature_image{
+  text-align: left;
+}
+
+.feature{
+  line-height: 3px;
+  padding: 8% 0 0;
+  text-align: left;
+}
+
+p{
+  font-weight: 600;
+  padding: 10px 0 0;
+}
+
+.year{
+  padding: 10px 0 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Footer Section*/
+
+.footer{
+  min-height: 50px;
+  background-color: #bd6418;
+}
+
+.footer p{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: 500;
+}
+
+span{
+  text-decoration: underline;
+}
+
+.copyright{
+  height: 18px;
+}
+
+.credit{
+  font-size: 13px;
+}

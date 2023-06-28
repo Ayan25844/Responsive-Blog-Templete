@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.body{
+  text-align: center;
+  background-color: #fff;
+  font-family: 'Montserrat';
+}
+
+.container-fluid{
+  padding-top:37px;
+}
+
+hr{
+  height:1.5px;
+  background-color: #000000;
+}
+
+.color{
+  color: #000000;
+}
+
+/* Navigation Bar*/
+
+.nav-item{
+  font-size:21px;
+  padding-left: 1%;
+  font-weight: 500; 
+}
+  
+.navbar-nav .nav-item :hover{
+  color:#bd6418;
+  transition: all 0.1s ease-in-out;
+}
+  
+input[type='search']{
+  color: #000000;
+  font-size: 13px;
+  font-weight:600;
+}
+  
+input::placeholder{
+  font-size: small;
+  font-weight:600;
+}
+
+/* Contact Section*/
+
+.contact{
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.contact::after{
+  content: "";
+  background-image: url(../img/11.svg);
+  position: absolute;
+  width: 80%;
+  height: inherit;
+  opacity: 0.15;
+  border-radius: 12px;
+  z-index: -1;
+}
+
+.label{
+  margin: 0;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 18px 0 18px 10px;
+}
+
+.mb-3{
+  padding-left: 10px;
+}
+
+input::placeholder{
+  font-size: 15px;
+}
+
+textarea[type='search']{
+  font-weight: 900;
+}
+
+textarea::placeholder{
+  padding: 4px 6px;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  color:#605f5f;
+  font-weight: 600;
+}
+
+textarea{
+  width: 52vw;
+  height: 25vw;
+  border-radius: 5px;
+  border: 2px solid #bd6418;
+}
+
+@media(max-width:586px){
+  textarea{
+    width:60vw;
+  }
+}
+
+@media(max-width:507px){
+  textarea{
+    width:70vw;
+  }
+}
+@media(max-width:435px){
+  textarea{
+    width:76vw;
+  }
+}
+
+.button{
+  margin-left: 10px;
+}
+
+/* Footer Section*/
+.footer{
+  margin-top: 55px;
+  min-height: 50px;
+  background-color: #bd6418;
+}
+
+.footer p{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: 500;
+}
+
+span{
+  text-decoration: underline;
+}
+
+.copyright{
+  height: 18px;
+}
+
+.credit{
+  font-size: 13px;
+}
+
+@media(max-width:1040px){
+  .footer{
+    margin-top:206px;
+  }
+}
